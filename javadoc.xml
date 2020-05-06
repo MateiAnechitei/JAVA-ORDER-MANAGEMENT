@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="private" author="true" classpath="mysql-connector-java-5.1.49/mysql-connector-java-5.1.49-bin.jar;itextpdf-5.5.9.jar" destdir="javadoc" doctitle="Java Database Order Management " nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="dataaccess,model,businesslogic,presentation,connection,start" source="1.8" sourcepath="src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>
